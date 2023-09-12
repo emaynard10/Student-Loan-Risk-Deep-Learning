@@ -3,6 +3,9 @@
 ### Resources: https://static.bc-edx.com/mbc/ai/m6/datasets/student_loans.csv
 ### Tools: Python, Pandas, SciKit-Learn, TensorFlow, Keras
 
+## Goal
+If a company can predict whether a borrower will pay their loan in full, it can provide a more accurate interest rate for the borrower. The goal of this model is to use neural networks to predict student loan repayment. 
+
 ## Steps:
 ### Prepare the Data for Use on a Neural Network Model
 * The student_loans.csv file is read into a Pandas DataFrame.
