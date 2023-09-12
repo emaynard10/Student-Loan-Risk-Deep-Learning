@@ -57,4 +57,4 @@ To improve the model, I could tune the model by adjusting the following:
 4. Epochs: I ran the model with 50 epochs, but could try to see if there are changes when that is increased to 100.
 5. Learning Rate and Optimizer: I ran the model using Adam, but could also adjust this parameter.
 
-Other considerations include chosing the right metrics.
+
