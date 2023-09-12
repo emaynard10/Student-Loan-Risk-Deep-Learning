@@ -51,11 +51,12 @@ If a company can predict whether a borrower will pay their loan in full, it can 
 
 
 ## Usage
+This model can be used to predict whether a student will repay a loan or not based on a number of factors. It could have wider applications if it were trained on loans for various uses. As is the deep learning model would benefit from more data being fed in to the training data, as neural networks perform better with more data. 
 
 ## Future Considerations
 To improve the model, I could tune the model by adjusting the following: 
-1. Acitivation Functions: I began with ReLu for the hidden layers. The target columns is continuous so this is a good place to start. 
-2. Number of Layers and Neurons: I could see if increasing the nmber of neurons or hidden nodes leads to overfitting.
+1. Activation Functions: I began with ReLu for the hidden layers. The target column is continuous so this is a good place to start. 
+2. Number of Layers and Neurons: I could see if increasing the number of neurons or hidden nodes leads to overfitting.
 3. Batch Size: I didn't specify so the default is 32.
 4. Epochs: I ran the model with 50 epochs, but could try to see if there are changes when that is increased to 100.
 5. Learning Rate and Optimizer: I ran the model using Adam, but could also adjust this parameter.
